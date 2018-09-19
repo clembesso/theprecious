@@ -306,7 +306,7 @@ hr.style1 {
 
 
 h2{
-    font-family:'ani';
+    font-family:'PartyBusiness';
 }
 
 p {
@@ -355,4 +355,12 @@ p{
 
 .nav{
     font-family: 'PartyBusiness' !important;
+}
+
+.captured{
+    background: url('site/bg_dark.png');
+}
+
+.ring{
+    border-radius: 100px;
 }
