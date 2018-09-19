@@ -1,5 +1,7 @@
 
-
+body{
+    background : url('site/bg_light.png');
+}
 .nav-pills{
     display : flex;
     justify-content: space-around;
@@ -36,11 +38,6 @@ hr.style1 {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
 
 .block {
     overflow: hidden;
@@ -176,7 +173,7 @@ hr.style1 {
    }
    .overlay-image .text{
     color: black;
-    font-size: 20px;
+    font-size: 1.8em;
     text-align: center;
     position: absolute;
     top: 17%;
@@ -186,7 +183,7 @@ hr.style1 {
     border-top: 1px white ridge;
     border-bottom: 1px white ridge;
     border-radius: 5px;
-    width : 140px;
+    width : 90%;
     background: rgb(255,255,255,0.8);
    }
    
@@ -195,16 +192,20 @@ hr.style1 {
      color: orange;
    }
    
+   .text{
+    font-family: 'PartyBusiness' !important;
+   }
    .text2
    {
     color: white;
-    font-size: 20px;
+    font-size: 3em;
     text-align: center;
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%; 
+    font-family: 'PartyBusiness' !important;
    }
    
    .overlay-image .hover .text .text2 .text3{
@@ -224,15 +225,17 @@ hr.style1 {
    .text3
    {
      color: white;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
     position: absolute;
-    top: 85%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     opacity: 0;
+    font-family: 'PartyBusiness' !important;
    }
+
    
    .overlay-image .normal {
     transition: .5s ease;
@@ -264,4 +267,78 @@ hr.style1 {
 
 .description{
     text-align: center;
+}
+
+@font-face {
+    font-family:'ani';
+    src: url('site/anicb___.ttf') format('truetype');
+    src: url('site/anicm___.ttf') format('truetype');
+    src: url('site/anirb___.ttf') format('truetype');
+    src: url('site/anirm___.ttf') format('truetype');
+
+
+  }
+
+@font-face {
+    font-family:'PartyBusiness';
+    src : url('site/partybusiness.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'tngani';
+    src : url('site/tngani.ttf') format('truetype');
+}
+
+
+
+h2{
+    font-family:'ani';
+}
+
+p {
+    font-family :'PartyBusiness';
+}
+
+.carousel-caption{
+    margin-bottom: 8em;
+}
+
+.carousel-caption h2{
+    font-size: 6em;
+}
+
+.carousel-caption p{
+    font-size : 3em;
+}
+
+.navbar {
+    background-color: rgb(255, 117, 4) !important;
+    font-family : 'PartyBusiness' !important;
+    font-size: 2em;
+  
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+.entourage{
+    font-family:'tngani';
+}
+
+.text-light{
+    color: rgb(255, 117,4) !important;
+}
+
+.nav{
+    font-family: 'PartyBusiness' !important;
 }
