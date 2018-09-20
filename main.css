@@ -371,5 +371,11 @@ p{
 }
 
 .cadreblancgimli{
-    
+
 }
+
+.nav-link:hover{
+    text-decoration : underline;
+
+}
+
