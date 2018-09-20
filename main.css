@@ -228,6 +228,7 @@ hr.style1 {
 
    .line{
     text-decoration: line-through;
+    text-decoration-color: orangered;
 
    }
 
@@ -367,4 +368,8 @@ p{
 
 .fellowswanted{
     font-size : 30px;
+}
+
+.cadreblancgimli{
+    
 }
